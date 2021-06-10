@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous" />
+
+    <!-- my css -->
+    <link rel="stylesheet" href="css/font.awesome.min.css" />
+    <title>Portfolio Web</title>
+  </head>
+  <body class="bg-light">
+    <!-- navbarr -->
+    <nav class="navbar navbar-light fixed-top bg-light fw-bold shadow-sm">
+      <div class="container-lg">
+        <a class="navbar-brand text-primary" href="#">WEB PORTFOLIO</a>
+        <div class="dropdown">
+          <button class="btn btn-secondary px-3 bg-primary" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false"><i class="fas fa-bars"></i></button>
+          <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton1">
+            <li><a class="dropdown-item" href="#home">Home</a></li>
+            <li><a class="dropdown-item" href="#about">Tentang Kami</a></li>
+            <li><a class="dropdown-item" href="#service">Pelayanan</a></li>
+            <li><a class="dropdown-item" href="#portfolio">Proyek Kami</a></li>
+            <li><a class="dropdown-item" href="#testimoni">Testimoni</a></li>
+            <li><a class="dropdown-item" href="#contact">Hubungi Kami</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- navba end -->
+    <!-- home  -->
+    <!-- membuat scoll dengan "class row=min-vh-100" -->
+    <section class="home py-5" id="home">
+      <div class="container">
+        <div class="row min-vh-100 align-items-center align-content-center">
+          <div class="col-md-6 mt-5 mt-md-0">
+            <div class="home-img text-center">
+              <!-- rounded-circle mw-100 = untuk foto bentuk oval -->
+              <img src="img/9.jpeg" class="rounded-circle mw-100" alt="ilu" width="300" />
+            </div>
+          </div>
+          <!-- order-md-fist = tata letak kebalikan -->
+          <div class="col-md-6 mt-5 mt-md-0 order-md-first">
+            <div class="home-text">
+              <p class="text-muted mb-1">Hallo Nama Saya,</p>
+              <h3 class="fw-4 fw-bold">Chusaini</h3>
+              <h1 class="text-primary text-Uppercase fw-1 fw-bold">Front End Web Developer</h1>
+               <p class="text-muted mt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas repellendus ipsa illo unde perspiciatis suscipit aut nihil eos praesentium!</p>
+              <!-- mt-4 fungsi untuk spasi text atasnya -->
+              <a href="#portfolio" class="btn btn-primary mt-4 px-3">Pekerjaan Saya</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end home -->
+    <!-- about -->
+    <!-- py-2 spasi ke section sebelumnya -->
+    <section class="about py-5" id="about">
+      <div class="container-lg py-4">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="title text-center">
+              <h2 class="fw-bold mb-5">Tentang Saya</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="about-text">
+              <h3 class="fs-4 mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3>
+              <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, deserunt adipisci, quisquam cum consectetur amet hic molestiae delectus non perspiciatis nobis iste.</p>
+            </div>
+            <div class="row text-center text-Uppercase my-3">
+              <div class="col-sm-4">
+                <div class="fact-item">
+                  <h4 class="fs-2 fw-bold">60</h4>
+                  <p class="text-muted">Proyek selesai</p>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="fact-item">
+                  <h4 class="fs-2 fw-bold">58</h4>
+                  <p class="text-muted">Klien senang</p>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="fact-item">
+                  <h4 class="fs-2 fw-bold">49</h4>
+                  <p class="text-muted">Tanggapan Positif</p>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-12 d-flex align-items-center">
+                <a href="#" class="btn btn-primary px-3 me-5">Download CV</a>
+                <div class="sosial-links">
+                  <a href="#" class="text-dark me-2"><i class="fab fa-facebook-f"></i></a>
+                  <!-- pada icon untuk spasi antar jarak icon kesamping = me-2 -->
+                  <a href="#" class="text-dark me-2"><i class="fab fa-twitter"></i></a>
+                  <a href="#" class="text-dark me-2"><i class="fab fa-instagram"></i></a>
+                  <a href="#" class="text-dark me-2"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 mt-5 mt-md-0">
+            <div class="skil-item mb-4">
+              <h3 class="fs-6">Html</h3>
+              <div class="progress" style="height: 6px">
+                <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+            <div class="skilitem mb-4">
+              <h3 class="fs-6">Css</h3>
+              <div class="progress" style="height: 6px">
+                <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+            <div class="skilitem mb-4">
+              <h3 class="fs-6">Java Scripts</h3>
+              <div class="progress" style="height: 6px">
+                <div class="progress-bar" role="progressbar" style="width: 30%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+            <div class="skilitem mb-4">
+              <h3 class="fs-6">Bootstrap</h3>
+              <div class="progress" style="height: 6px">
+                <div class="progress-bar" role="progressbar" style="width: 65%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- about akhir -->
+    <!-- sevice -->
+    <section class="service py-5" id="service">
+      <div class="container-lg py-4">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="title text-center">
+              <h2 class="fw-bold mb-5">Pelayanan Kami</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-lg-4 mt-3 mt-md-0">
+            <div class="service-item shadow-sm p-4 rounded bg-white">
+              <div class="icon my-3 text-primary fs-2">
+                <i class="fas fa-code"></i>
+              </div>
+              <h3 class="fs-5 py-2">Web Front End</h3>
+              <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 mt-3 mt-md-0">
+            <div class="service-item shadow-sm p-4 rounded bg-white">
+              <div class="icon my-3 text-primary fs-2">
+                <i class="fas fa-lightbulb"></i></fas>
+              </div>
+              <h3 class="fs-5 py-2">Design UI/UX</h3>
+              <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 mt-3 mt-md-0">
+            <div class="service-item shadow-sm p-4 rounded bg-white">
+              <div class="icon my-3 text-primary fs-2">
+                <i class="fas fa-photo-video"></i>
+              </div>
+              <h3 class="fs-5 py-2">Editor</h3>
+              <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- service khir -->
+
+    <!-- portfolio -->
+    <section class="potfolio  py-5" id="portfolio">
+      <div class="container-lg py-4">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="title text-center">
+              <h2 class="fw-bold mb-5">Project Terakhir</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="Item-poject">
+              <img src="img/2.jpg" alt="gmbr2" class="w-200 img-thumbnail">
+              <h3 class="text-capitalize fs-5 my-2">Landing Page</h3>
+              <p class="mb-4"><a href="#" class="text-primary text-decoration-none">Live Demo</a></p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="Item-poject">
+              <img src="img/3.jpg" alt="gmbr2" class="w-200 img-thumbnail">
+              <h3 class="text-capitalize fs-5 my-2">Desain UI/UX</h3>
+              <p class="mb-4"><a href="#" class="text-primary text-decoration-none">Live Demo</a></p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="Item-poject">
+              <img src="img/4.jpg" alt="gmbr2" class="w-200 img-thumbnail">
+              <h3 class="text-capitalize fs-5 my-2">web Design</h3>
+              <p class="mb-4"><a href="#" class="text-primary text-decoration-none">Live Demo</a></p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="Item-poject">
+              <img src="img/5.jpg" alt="gmbr2" class="w-200 img-thumbnail">
+              <h3 class="text-capitalize fs-5 my-2">Video Editing</h3>
+              <p class="mb-4"><a href="#" class="text-primary text-decoration-none">Live Demo</a></p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="Item-poject">
+              <img src="img/6.jpg" alt="gmbr2" class="w-200 img-thumbnail">
+              <h3 class="text-capitalize fs-5 my-2">Foto Editing</h3>
+              <p class="mb-4"><a href="#" class="text-primary text-decoration-none">Live Demo</a></p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="Item-poject">
+              <img src="img/7.jpg" alt="gmbr2" class="w-200 img-thumbnail">
+              <h3 class="text-capitalize fs-5 my-2">Front End Developer</h3>
+              <p class="mb-4"><a href="#" class="text-primary text-decoration-none">Live Demo</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- akhi portfolio -->
+    <!-- feelance -->
+    <section class="freelnce py-5 bg-primary">
+      <div class="container-lg py-4">
+        <div class="row justify-content-center">
+          <div class="col-lg-8 text-center">
+            <p class="text-light fs-5">Apakah Anda Punya Poyek? </p>
+            <h2 class="fs-1 text-white mb-4">Saya Siap Membantu Proyek Anda</h2>
+            <a href="#contact" class="btn btn-outline-light">Hubungi Kami</a>
+            <!-- outline pda button untuk warna ganda -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- akhi feelance -->
+    <section class="testimoni py-5" id="testimoni">
+      <div class="container-lg py-4">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="title text-center">
+              <h2 class="fw-bold mb-5">Testimoni</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-8 col-xl-7">
+            <!-- component slier -->
+            <div id="carousel1" class="carousel slide" data-bs-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-bs-target="#carousel1" data-bs-slide-to="0" class="active bg-primary" aria-current="true" aria-label="Slide 1"></li>
+                <li class="bg-primary" data-bs-target="#carousel1" data-bs-slide-to="1" aria-label="Slide 2"></li>
+                <li class="bg-primary" data-bs-target="#carousel1" data-bs-slide-to="2" aria-label="Slide 3"></li>
+              </ol>
+            <div class="carousel-inner p-1">
+              <!-- slide akhir -->
+            <!-- testimoni -->
+            <div class="testimoni-item bg-white carousel-item active rounded p-4 mb-5">
+              <div class="testi-autho-info d-flex align-items-center">
+                <img src="testi/1.jpg" alt="1" width="200" class="img-thumbnail rounded-circle">
+                <div class="author ms-3">
+                  <h3 class="fs-5 mb-2">Aldo.P</h3>
+                <p class="text-muted">Seo Manager</p>
+                </div>
+              </div>
+              <p class="text-muted mt-3 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+              <div class="rating text-primary text-center">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+            </div>
+           <!-- testi akhir -->
+             <!-- testimoni -->
+             <div class="testimoni-item bg-white carousel-item rounded p-4 mb-5">
+              <div class="testi-autho-info d-flex align-items-center">
+                <img src="testi/3.jpg" alt="1" width="200" class="img-thumbnail rounded-circle">
+                <div class="author ms-3">
+                  <h3 class="fs-5 mb-2">Aldo.P</h3>
+                <p class="text-muted">Seo Manager</p>
+                </div>
+              </div>
+              <p class="text-muted mt-3 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+              <div class="rating text-primary text-center">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+            </div>
+           <!-- testi akhir -->
+             <!-- testimoni -->
+             <div class="testimoni-item bg-white carousel-item rounded p-4 mb-5">
+              <div class="testi-autho-info d-flex align-items-center">
+                <img src="testi/2.jpg" alt="1" width="200" class="img-thumbnail rounded-circle">
+                <div class="author ms-3">
+                  <h3 class="fs-5 mb-2">Aldo.P</h3>
+                <p class="text-muted">Seo Manager</p>
+                </div>
+              </div>
+              <p class="text-muted mt-3 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+              <div class="rating text-primary text-center">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+            </div>
+           <!-- testi akhir -->
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- contact -->
+    <section class="contact py-5" id="contact" >
+      <div class="container-lg py-4">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="title text-center">
+              <h2 class="fw-bold mb-5">Hubungi Kami</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-5">
+            <div class="contact-me d-flex mb-3">
+            <div class="icon-contact fs-4 text-primary">
+                <i class="fas fa-envelope"></i>
+            </div>
+              <div class="text ms-3">
+                <h3 class="fs-5">Email</h3>
+                <p class="text-muted">contoh@gmail.com</p>
+              </div>
+            </div>
+            <div class="contact-me d-flex mb-3">
+              <div class="icon-contact fs-4 text-primary">
+                  <i class="fas fa-phone"></i>
+              </div>
+                <div class="text ms-3">
+                  <h3 class="fs-5">Telephone</h3>
+                  <p class="text-muted">0826524****</p>
+                </div>
+              </div>
+              <div class="contact-me d-flex mb-3">
+                <div class="icon-contact fs-4 text-primary">
+                    <i class="fas fa-map-marker-alt"></i>
+                </div>
+                  <div class="text ms-3">
+                    <h3 class="fs-5">Alamat Kantor</h3>
+                    <p class="text-muted">Jl. Pahlawan no 36</p>
+                  </div>
+                </div>
+            </div>
+            <div class="col-md-7">
+              <div class="contact-form">
+                <form>
+                  <div class="row">
+                    <div class="col-lg-6 mb-4">
+                      <input type="text"  placeholder="Nama Anda" class="form-control form-control-lg fs-6 border-0 shadow-sm">
+                    </div>
+                    <div class="col-lg -6 mb-4">
+                      <input type="text"  placeholder="Alamat Email" class="form-control form-control-lg fs-6 border-0 shadow-sm">
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-12 mb-4">
+                      <input type="text"  placeholder="Keterangan" class="form-control form-control-lg fs-6 border-0 shadow-sm">
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-12 mb-4">
+                      <textarea row="5" placeholder="Pesan" class="form-control form-control-lg fs-6 border-0 shadow-sm"></textarea>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-12">
+                      <button type="submit" class="btn btn-primary px-3">Kirim Pesan</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+          </div>
+      </div>
+    </section>
+    <!-- akhi contact -->
+    <!-- footer -->
+    <footer class="footer border-top py-4">
+      <div class="container-lg">
+        <div class="row">
+          <div class="col-lg-12">
+            <p class="m-0 text-center text-muted">&copy; Chusaini 2021 | Front End Developer</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- akhir footer -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+  </body>
+</html>
